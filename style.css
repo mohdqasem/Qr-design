@@ -1,0 +1,50 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    background-color: #d7f3fe;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    height: 100vh;
+    flex-direction: column;
+    align-items: center;
+}
+.parent{
+padding: 1.25rem;
+    background-color: white;
+    box-shadow: 5px 5px 5px #cfcdcd;
+    border-radius: 15px;
+} 
+.parent .child{
+    background-color: #ffffff;
+    width: 300px;
+    height: 450px;
+   
+  
+}
+.parent .child > img{
+   border-radius: 10px;
+     margin: 25px;
+}
+.parent .child > h2 , .parent .child > p {
+background-color: transparent;
+    text-align: center;
+ 
+}
+.parent .child>h2{
+color: hsl(228, 45%, 44%);
+padding: 2px;
+}
+.parent .child > p {
+    font-size: 12px;
+    padding: 10px;
+        text-align: center;
+}
+@media (min-width:668){
+    .parent{
+        width: 400px;
+    }
+}
